@@ -1,0 +1,26 @@
+/* Light mode switch */
+.form-switch .form-check-input:checked ~ .form-check-label::before {
+    background-color: #fff;
+  }
+  
+  /* Dark mode switch */
+  .dark-mode .form-switch .form-check-input:checked ~ .form-check-label::before {
+    background-color: #000;
+  }
+  
+  /* Light mode switch label */
+  .form-switch .form-check-label::before {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark mode switch label */
+  .dark-mode .form-switch .form-check-label::before {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .dark-mode{
+    background-color: #000;
+    color: #fff !important;
+  }
